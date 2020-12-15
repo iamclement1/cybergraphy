@@ -40,6 +40,17 @@ footer {
 	margin-top: 0;
 }
 
+.card1_logo {
+	margin: 15px 100px;
+}
+
+/* .profile_img {
+	position: absolute;
+	height: 550px;
+	width: 250px;
+	margin-left: 15em;
+} */
+
 .name {
 	position: absolute;
 	width: 300px;
@@ -54,6 +65,30 @@ footer {
 	line-height: 60px;
 	/* or 112% */
 	color: #333646;
+}
+
+.social {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 240px;
+	top: 280px;
+}
+
+.social1 {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 260px;
+	top: 280px;
+}
+
+.social2 {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 285px;
+	top: 280px;
 }
 
 .rec_card {
@@ -413,15 +448,14 @@ h6 {
 
 	color: #ffffff;
 }
-
-.card_img {
-	margin: auto;
-	background-color: cornflowerblue;
-	width: 75%;
-	height: 50px;
-	align-items: center;
-	justify-content: center;
-}
+/* 
+.social3 {
+	position: absolute;
+	width: 100px;
+	height: 0px;
+	left: 465px;
+	top: 3030px;
+} */
 
 /*CONTENT FOR CARD 4*/
 
@@ -941,9 +975,9 @@ h6 {
 }
 
 .card7 {
-	height: 25em;
+	height: 10em;
 	width: 100%;
-	background-color: #319873;
+	background-color: #ffffff;
 }
 
 .card7_logo {
