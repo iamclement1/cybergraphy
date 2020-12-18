@@ -245,6 +245,70 @@ h6 {
 	font-weight: bold;
 	margin: 2em 1em;
 }
+
+
+.card3{
+	width: 100%;
+	height: 20em;
+	justify-content: center;
+	align-items: center;
+}
+
+.box{
+	display: flex;
+	background-color: #333646;
+	width: 100%;
+	height: 15em;
+	justify-content: center;
+	align-items: center;
+}
+
+.box1,
+.box2,
+.box3 {
+	font-family: Quicksand;
+	font-style: normal;
+	font-weight: bold;
+	width: 320px;
+	height: 320px;
+	margin-bottom: 5px;
+	margin: 0 10px;
+	align-items: center;
+	justify-content: center;
+}
+/* 
+.fal{
+	width: 50px;
+	height: 50px;
+	margin: 50px;
+} */
+
+.box1{
+	background: #319873;
+}
+
+.box2{
+	background: #424657;
+}
+
+.box3{
+	background: #424657;
+
+}
+
+.box1_content,
+.box2_content,
+.box3_content{
+	text-align: center;
+	font-size: 28px;
+	margin: 150px 35px;
+	color: #fff;
+}
+
+/* .card3_social{
+	width: 50em;
+	height: 50em;
+} */
 /*============================================================
 MEDIA QUERIES
 ==============================================================
@@ -299,12 +363,12 @@ MEDIA QUERIES
 
 .icons{
 	display: flex;
-	margin: 0 .6em;
+	margin: 1em .6em;)
 }
 .fab {
-	margin: .3em;
-	width: 1em;
-	height: 1em;
+	margin: 0 10px;
+	width: 1px;
+	height: 1px;
 	
 }
 
@@ -317,11 +381,10 @@ This responsiveness if for the right side of card 1
 	background-color: #fff;
 	width: 49%;
 	height: 10em;
+	margin: 0px;
 } 
 
 h6 {
-	
-	margin: .5em .09em;
 	margin-bottom: 0;
 	font-family: Quicksand;
 	font-style: normal;
@@ -331,7 +394,6 @@ h6 {
 .right_content{
 	width: 5em;
 	height: 6em;
-	margin: 0 .5em;
 	color: #333646;
 }
 
@@ -339,21 +401,20 @@ h6 {
 	font-family: Quicksand;
 	font-style: normal;
 	font-weight: bold;
-	font-size: 8px;
+	font-size: 6px;
 } 
 
 .text {
 	font-family: Quicksand;
-	font-size: 0.2em;
+	font-size: 0.1em;
 	color: #757783;
 } 
 
 .story {
-	margin: 1em 0;
 	text-decoration: none;
 	font-family: Quicksand;
 	font-weight: bold;
-	font-size: 12px;
+	font-size: 7px;
 	color: #319873;
 }
 
@@ -378,6 +439,7 @@ h6 {
 
 .contact{
 	margin-top: .5em;
+	font-size: 2px;
 }
 
 .left_content{
