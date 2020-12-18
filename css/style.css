@@ -34,7 +34,7 @@ footer {
 /*All content for card1*/
 .card1 {
 	display: flex;
-	background-color: aqua;
+	background-color: #fff;
 	height: 400px;
     width: 100%;
 }
@@ -145,7 +145,7 @@ h6 {
 
 .card2{
 	display: flex;
-	background-color: aqua;
+	background-color: #fff;
 	height: 400px;
     width: 100%;;
 }
@@ -153,7 +153,7 @@ h6 {
 	background-color: #E5E5E5;
 	width: 50%;
 	height: 25em;
-	margin: 0 .4em;
+	
 }
 
 
@@ -197,7 +197,7 @@ h6 {
 	background-color: #E5E5E5;
 	width: 50%;
 	height: 25em;
-	margin: 0 .4em;
+	
 }
 
 .right_text{
@@ -259,7 +259,7 @@ MEDIA QUERIES
 
 	.card1{
 		display: flex;
-	background-color:#235f;
+	background-color:#fff;
 	height: 10.60em;
     width: 100%;
 	}
@@ -315,7 +315,7 @@ This responsiveness if for the right side of card 1
 
 .card1_right {
 	background-color: #fff;
-	width: 47%;
+	width: 49%;
 	height: 10em;
 } 
 
@@ -360,7 +360,7 @@ h6 {
 
 .card2{
 	display: flex;
-	background-color: aqua;
+	background-color: #ffffff;
 	height: 10.5em;
     width: 100%;;
 }
@@ -407,7 +407,7 @@ h6 {
 }
 .card2_right{
 	background-color: #E5E5E5;
-	width: 45%;
+	width: 49%;
 	height: 10em;
 	margin-left: .009em;
 }
@@ -432,8 +432,7 @@ h6 {
 	display: inline-flex;
 	margin: 1em 0;
 	font-family: Quicksand;
-	width: 10em;
-	height: 5em;
+
 }
 
 .card2_date{
@@ -441,6 +440,8 @@ h6 {
 	font-size: .7em;
 	color: #319873;
 	margin: .3em 0;
+	width: 10px;
+	
 
 }
 
@@ -455,790 +456,13 @@ h6 {
 
 .int{
 	font-family: Quicksand;
-	font-size: .01em;
+	font-size: 4.51238876px;
 	font-weight: bold;
 	margin: .4em .5em;
-	width: .0112em;
+	width: .05px;
 }
 
 }
-/* .card2 {
-	display: flex;
-	background-color: #e5e5e5;
-    height: 550px;
-    width: 100%;
-}
-
-.contact_card {
-	width: 50%;
-	height: 550px;
-	margin: 5px;
-}
-
-.line {
-	background-color: #319873;
-	position: absolute;
-	border-radius: 50px;
-	width: 10px;
-	height: 0px;
-	left: 215px;
-	top: 422px;
-	border: 1px solid #757783;
-}
-.contact {
-	position: absolute;
-	width: 80px;
-	height: 26px;
-	left: calc(50% - 80px / 2 - 350px);
-	top: 400px;
-	font-family: Quicksand;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 14px;
-	line-height: 140.62%;
-	
-	letter-spacing: 0.1em;
-	color: #757783;
-}
-
-.query {
-	position: absolute;
-	width: 272px;
-	height: 85px;
-	top: 430px;
-	padding: 0 80px;
-	font-family: Quicksand;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 30px;
-	line-height: 120.62%;
-	color: #333646;
-}
-
-.contact_text {
-	position: absolute;
-	width: 394px;
-	height: 60px;
-	top: 560px;
-	padding: 0 80px;
-	font-family: Quicksand;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 15px;
-	line-height: 30px;
-
-	color: #757783;
-}
-
-.contact_email {
-	position: absolute;
-	width: 206px;
-	height: 25px;
-	top: 680px;
-	padding: 0 80px;
-	font-family: Quicksand;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 20px;
-	line-height: 25px;
-	color: #319873;
-}
-
-.contact2_card {
-	width: 50%;
-	height: 550px;
-	margin: 5px;
-}
-
-.contact2_text {
-	position: absolute;
-	width: 497px;
-	height: 145px;
-	top: 390px;
-	padding: 0 30px;
-	font-family: Quicksand;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 20px;
-	line-height: 140.62%;
-	color: #333646;
-}
-
-.contact2_subtext {
-	position: absolute;
-	width: 394px;
-	height: 90px;
-	top: 530px;
-	padding: 0 30px;
-	font-family: Quicksand;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 18px;
-	line-height: 30px;
-	color: #757783;
-}
-.num {
-	position: absolute;
-	width: 63px;
-	height: 88px;
-	top: 600px;
-	padding: 0 30px;
-	font-family: Quicksand;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 70px;
-	line-height: 87px;
-	color: #319873;
-}
-.exp {
-	position: absolute;
-	width: 99px;
-	height: 51px;
-	top: 670px;
-	padding: 0 105px;
-	font-family: Quicksand;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 18px;
-	line-height: 140.62%;
-	color: #333646;
-}
-
-.num1 {
-	position: absolute;
-	width: 41px;
-	height: 88px;
-	top: 600px;
-	padding: 0;
-	left: calc(50% - 41px / 2 + 240.5px);
-	font-family: Quicksand;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 70px;
-	line-height: 87px;
-	color: #319873;
-}
-
-.int {
-	position: absolute;
-	width: 197px;
-	height: 51px;
-	left: calc(50% - 197px / 2 + 365.5px);
-	top: 672px;
-	font-family: Quicksand;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 18px;
-	line-height: 140.62%;
-	color: #333646;
-} */
-
-/* .card3 {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin: auto;
-	height: 15em;
-}
-
-.box_card {
-	position: absolute;
-	width: 250px;
-	height: 280px;
-	left: 90px;
-	top: 840px;
-	background: #319873;
-	margin-left: 9em;
-}stiil
-
-.box2_card {
-	position: absolute;
-	width: 250px;
-	height: 280px;
-	left: 395px;
-	top: 840px;
-	background: #424657;
-	margin-left: 6em;
-}
-
-.box3_card {
-	position: absolute;
-	width: 250px;
-	height: 280px;
-	left: 700px;
-	top: 840px;
-	margin-left: 3em;
-	background: #424657;
-}
-
-.box1_content {
-	position: absolute;
-	top: 35%;
-	right: 15%;
-	left: 15%;
-	bottom: 25%;
-	font-family: Quicksand;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 22px;
-	line-height: 50px;
-	display: flex;
-	align-items: center;
-	text-align: center;
-
-	color: #ffffff;
-}
-
-.box2_content {
-	position: absolute;
-	top: 25%;
-	right: 15%;
-	left: 15%;
-	font-family: Quicksand;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 25px;
-	line-height: 50px;
-	display: flex;
-	align-items: center;
-	text-align: center;
-	color: #ffffff;
-}
-
-.box3_content {
-	position: absolute;
-	top: 20%;
-	left: 12%;
-	right: 12%;
-	font-family: Quicksand;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 22px;
-	line-height: 50px;
-	display: flex;
-	align-items: center;
-	text-align: center;
-	color: #ffffff;
-} */
-/* 
-.social3 {
-	position: absolute;
-	width: 100px;
-	height: 0px;
-	left: 465px;
-	top: 3030px;
-} */
-
-/*CONTENT FOR CARD 4*/
-
-/* .card4 {
-	display: flex;
-	height: 65em;
-	margin: 5px auto;
-}
-.card4_text {
-	background-color: #fff;
-	height: 64em;
-	width: 48%;
-	margin: 5px auto;
-}
-
-.line2 {
-	background-color: #319873;
-	position: absolute;
-	border-radius: 50px;
-	width: 10px;
-	height: 0px;
-	left: 215px;
-	top: 1240px;
-	border: 1px solid #757783;
-}
-
-.port {
-	position: absolute;
-	width: 90px;
-	height: 26px;
-	left: calc(50% - 90px / 2 - 330px);
-	top: 1210px;
-	font-family: Quicksand;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 18px;
-	line-height: 140.62%;
-	letter-spacing: 0.1em;
-	color: #757783;
-}
-.work {
-	position: absolute;
-	width: 283px;
-	height: 85px;
-	left: calc(50% - 283px / 2 - 263.5px);
-	top: 1230px;
-	font-family: Quicksand;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 30px;
-	line-height: 140.62%;
-	color: #333646;
-}
-
-.amet {
-	position: absolute;
-	width: 394px;
-	height: 60px;
-	left: calc(50% - 394px / 2 - 205px);
-	top: 1360px;
-	font-family: Quicksand;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 18px;
-	line-height: 30px;
-	color: #757783;
-}
-
-.explore {
-	position: absolute;
-	width: 126px;
-	height: 25px;
-	left: calc(50% - 126px / 2 - 352px);
-	top: 1500px;
-	font-family: Quicksand;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 20px;
-	line-height: 25px;
-	color: #319873;
-}
-
-.content_img {
-	position: absolute;
-	width: 350px;
-	height: 450px;
-	left: 205px;
-	top: 1600px;
-}
-
-.card4_img {
-	background-color: #fff;
-	height: 64em;
-	width: 48%;
-	margin: 5px auto;
-}
-.img_card4 {
-	position: absolute;
-	left: 717px;
-	top: 1250px;
-}
-
-.img1_card4 {
-	position: absolute;
-	width: 350px;
-	height: 450px;
-	left: 717px;
-	top: 1750px;
-}
-
-.card5 {
-	background-color: #e5e5e5;
-	display: flex;
-	height: 50em;
-	align-items: center;
-	justify-content: center;
-}
-.card5_img {
-	background-color: #e5e5e5;
-	height: 49em;
-	width: 49%;
-	margin: auto 5px;
-}
-.line3 {
-	position: absolute;
-	width: 10px;
-	height: 0px;
-	left: 235px;
-	top: 2300px;
-	border: 1px solid #757783;
-}
-
-.blog {
-	position: absolute;
-	width: 46px;
-	height: 26px;
-	left: calc(50% - 46px / 2 - 345px);
-	top: 2290px;
-	font-family: Quicksand;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 18px;
-	line-height: 140.62%;
-	letter-spacing: 0.1em;
-	color: #757783;
-}
-
-.new {
-	position: absolute;
-	width: 267px;
-	height: 85px;
-	left: calc(50% - 267px / 2 - 250.5px);
-	top: 2320px;
-
-	font-family: Quicksand;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 30px;
-	line-height: 140.62%;
-	color: #333646;
-}
-
-.img_card5 {
-	position: absolute;
-	left: 185px;
-	top: 2517px;
-}
-
-.card5_text {
-	background-color: #e5e5e5;
-	height: 49em;
-	width: 49%;
-	margin: auto 5px;
-}
-
-.date1 {
-	position: absolute;
-	width: 108px;
-	height: 23px;
-	left: calc(50% - 108px / 2 + 58px);
-	top: 2310px;
-	font-family: Quicksand;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 18px;
-	line-height: 20px;
-	color: #757783;
-}
-
-.txt1 {
-	position: absolute;
-	width: 320px;
-	height: 25px;
-	left: calc(50% - 320px / 2 + 292px);
-	top: 2306px;
-	font-family: Quicksand;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 20px;
-	line-height: 25px;
-	color: #333646;
-}
-
-.blog1 {
-	position: absolute;
-	width: 108px;
-	height: 23px;
-	left: calc(50% - 108px / 2 + 58px);
-	top: 2400px;
-	font-family: Quicksand;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 18px;
-	line-height: 20px;
-	color: #757783;
-}
-
-.txt2 {
-	position: absolute;
-	width: 320px;
-	height: 25px;
-	left: calc(50% - 320px / 2 + 292px);
-	top: 2399px;
-	font-family: Quicksand;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 20px;
-	line-height: 25px;
-	color: #333646;
-}
-
-.blog2 {
-	position: absolute;
-	width: 108px;
-	height: 23px;
-	left: calc(50% - 108px / 2 + 58px);
-	top: 2475px;
-	font-family: Quicksand;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 18px;
-	line-height: 20px;
-	color: #757783;
-}
-
-.txt3 {
-	position: absolute;
-	width: 320px;
-	height: 25px;
-	left: calc(50% - 320px / 2 + 292px);
-	top: 2475px;
-	font-family: Quicksand;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 20px;
-	line-height: 25px;
-	color: #333646;
-}
-
-.card5_foc {
-	position: absolute;
-	width: 440px;
-	height: 190px;
-	left: calc(50% - 533px / 2 + 270.5px);
-	top: 2700px;
-	font-family: Quicksand;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 20px;
-	line-height: 190.62%;
-	color: #333646;
-}
-
-.autor {
-	position: absolute;
-	width: 147px;
-	height: 29px;
-	left: calc(50% - 147px / 2 + 77.5px);
-	top: 2890px;
-	font-family: Quicksand;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 20px;
-	line-height: 140.62%;
-	color: #333646;
-}
-.behance {
-	position: absolute;
-	width: 87px;
-	height: 26px;
-	left: calc(50% - 87px / 2 + 67.5px);
-	top: 2915px;
-	font-family: Quicksand;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 18px;
-	line-height: 140.62%;
-	letter-spacing: 0.1em;
-	color: #757783;
-}
-
-.card5_line {
-	position: absolute;
-	width: 60px;
-	height: 0px;
-	left: 635px;
-	top: 2970px;
-	border: 8px solid #319873;
-}
-
-.card5_line2 {
-	position: absolute;
-	width: 60px;
-	height: 0px;
-	left: 744px;
-	top: 2970px;
-	border: 8px solid #757783;
-}
-
-.card5_line3 {
-	position: absolute;
-	width: 60px;
-	height: 0px;
-	left: 855px;
-	top: 2970px;
-	border: 8px solid #757783;
-}
-
-.card5_line4 {
-	position: absolute;
-	width: 60px;
-	height: 0px;
-	left: 960px;
-	top: 2970px;
-
-	border: 8px solid #757783;
-}
-
-.card6 {
-	background-color: #fff;
-	display: flex;
-	height: 30em;
-	align-items: center;
-	justify-content: center;
-	padding: auto;
-}
-
-.card6_project {
-	background-color: #fff;
-	height: 29em;
-	width: 49%;
-	margin: 0 5px;
-}
-
-.card6_line {
-	position: absolute;
-	width: 10px;
-	height: 0px;
-	left: 235px;
-	top: 3100px;
-	border: 1px solid #757783;
-}
-
-.project_card6 {
-	position: absolute;
-	width: 73px;
-	height: 26px;
-	left: calc(50% - 73px / 2 - 325.5px);
-	top: 3090px;
-	font-family: Quicksand;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 18px;
-	line-height: 140.62%;
-	letter-spacing: 0.1em;
-	color: #757783;
-}
-
-.card6_talk {
-	position: absolute;
-	width: 206px;
-	height: 85px;
-	left: calc(50% - 206px / 2 - 296px);
-	top: 3132px;
-	font-family: Quicksand;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 30px;
-	line-height: 140.62%;
-	color: #333646;
-}
-
-.card6_txt {
-	position: absolute;
-	width: 394px;
-	height: 160px;
-	left: calc(50% - 394px / 2 - 210px);
-	top: 3259px;
-	font-family: Quicksand;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 18px;
-	line-height: 30px;
-	color: #757783;
-}
-
-.card6_mail {
-	position: absolute;
-	width: 206px;
-	height: 25px;
-	left: calc(50% - 206px / 2 - 309px);
-	top: 3453px;
-	font-family: Quicksand;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 20px;
-	line-height: 25px;
-	color: #319873;
-}
-
-.card6_est {
-	background-color: #fff;
-	height: 29em;
-	width: 49%;
-}
-
-.est {
-	position: absolute;
-	width: 342px;
-	height: 85px;
-	left: calc(50% - 342px / 2 + 259px);
-	top: 3130px;
-	font-family: Quicksand;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 30px;
-	line-height: 140.62%;
-	color: #333646;
-}
-
-.card6_name {
-	position: absolute;
-	width: 187px;
-	height: 30px;
-	left: calc(50% - 187px / 2 + 181.5px);
-	top: 3259px;
-	font-family: Quicksand;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 20px;
-	line-height: 30px;
-	color: #333646;
-}
-
-.card6_mai {
-	position: absolute;
-	width: 103px;
-	height: 30px;
-	left: calc(50% - 103px / 2 + 139.5px);
-	top: 3332px;
-	font-family: Quicksand;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 20px;
-	line-height: 30px;
-	color: #333646;
-}
-
-.tell {
-	position: absolute;
-	width: 255px;
-	height: 30px;
-	left: calc(50% - 255px / 2 + 215.5px);
-	top: 3412px;
-	font-family: Quicksand;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 20px;
-	line-height: 30px;
-	color: #333646;
-}
-
-.card7 {
-	height: 10em;
-	width: 100%;
-	background-color: #ffffff;
-}
-
-.card7_logo {
-	position: absolute;
-	left: calc(50% - 86px / 2 - 46px);
-	top: 3510px;
-	align-items: center;
-	justify-content: center;
-}
-
-.copy {
-	position: absolute;
-	left: calc(50% - 86px / 2 - 96px);
-	top: 3600px;
-
-	font-family: Quicksand;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 18px;
-	line-height: 150%;
-	color: #333646;
-} */
-
-
-
 
 /*
 $Desktop: 1200px
