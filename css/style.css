@@ -143,6 +143,113 @@ h6 {
 }
 
 
+.card2{
+	display: flex;
+	background-color: aqua;
+	height: 400px;
+    width: 100%;;
+}
+.card2_left{
+	background-color: #E5E5E5;
+	width: 50%;
+	height: 25em;
+	margin: 0 .4em;
+}
+
+
+.card2_line{
+	
+	margin-left: 2em;
+	margin-top: 2em;
+	
+}
+
+.contact{
+	margin-top: 1em;
+}
+
+.left_content{
+	font-family: Quicksand;
+	margin: 0 1.3em;
+	width: 20em;
+	height: 5em;	
+}
+
+.query{
+	font-size: 2.2em;
+	
+}
+
+.left_text{
+	font-family: Quicksand;
+	color:  #757783;;
+}
+
+.left_email{
+	font-family: Quicksand;
+	margin-top: 50em;
+	text-decoration: none;
+	color: #319873;
+	font-weight: bold;
+	font-size: 1em;
+}
+.card2_right{
+	background-color: #E5E5E5;
+	width: 50%;
+	height: 25em;
+	margin: 0 .4em;
+}
+
+.right_text{
+	font-family: Quicksand;
+	margin: 2em;
+	width: 25em;
+	height: 15em;
+}
+
+.lang{
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+.amet{
+	color: #757783;
+}
+.date{
+	display: inline-flex;
+	margin: 1em 0;
+	font-family: Quicksand;
+	width: 35em;
+	height: 15em;
+}
+
+.card2_date{
+	font-weight: bold;
+	font-size: 5em;
+	color: #319873;
+	margin: .3em 0;
+
+}
+
+.year{
+	font-family: Quicksand;
+	margin: 2.2em 1em;
+	font-size: 1.3em;
+	font-weight: bold;
+
+}
+
+.int{
+	font-family: Quicksand;
+	font-size: 1.4em;
+	font-weight: bold;
+	margin: 2em 1em;
+}
+/*============================================================
+MEDIA QUERIES
+==============================================================
+*/
+
 @media screen and (max-width: 375px) and (max-width: 425px) {
 	/* .container{
 			background-color: #000000;
@@ -196,8 +303,8 @@ h6 {
 }
 .fab {
 	margin: .3em;
-	width: 1.3em;
-	height: 1.3em;
+	width: 1em;
+	height: 1em;
 	
 }
 
@@ -250,6 +357,109 @@ h6 {
 	color: #319873;
 }
 
+
+.card2{
+	display: flex;
+	background-color: aqua;
+	height: 10.5em;
+    width: 100%;;
+}
+.card2_left{
+	background-color: #E5E5E5;
+	width: 50%;
+	height: 10em;
+}
+
+.card2_line{
+	margin-left: 1em;
+	margin-top: 1em;
+	
+}
+
+.contact{
+	margin-top: .5em;
+}
+
+.left_content{
+	font-family: Quicksand;
+	width: 6em;
+	height: 3em;	
+}
+
+.query{
+	font-size: .5em;
+	
+}
+
+.left_text{
+	font-family: Quicksand;
+	color:  #757783;
+	font-size: .5em;
+}
+
+.left_email{
+	font-family: Quicksand;
+	margin-top: 50em;
+	text-decoration: none;
+	color: #319873;
+	font-weight: bold;
+	font-size: .4em;
+}
+.card2_right{
+	background-color: #E5E5E5;
+	width: 45%;
+	height: 10em;
+	margin-left: .009em;
+}
+
+.right_text{
+	font-family: Quicksand;
+	width: 6em;
+	height: 4em;
+	margin: 0 .5em;
+}
+
+.lang{
+	font-weight: bold;
+	font-size: .6em;
+}
+
+.amet{
+	color: #757783;
+	font-size: 6px;
+}
+.date{
+	display: inline-flex;
+	margin: 1em 0;
+	font-family: Quicksand;
+	width: 10em;
+	height: 5em;
+}
+
+.card2_date{
+	font-weight: bold;
+	font-size: .7em;
+	color: #319873;
+	margin: .3em 0;
+
+}
+
+.year{
+	font-family: Quicksand;
+	margin: 2.2em 1em;
+	font-size: .1em;
+	font-weight: bold;
+	width: 30px;
+
+}
+
+.int{
+	font-family: Quicksand;
+	font-size: .01em;
+	font-weight: bold;
+	margin: .4em .5em;
+	width: .0112em;
+}
 
 }
 /* .card2 {
