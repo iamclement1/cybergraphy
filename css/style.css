@@ -1,533 +1,243 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
-/* 
-*{
-	border: 1px solid red;
-} */
-body {
-	background-color: gray;
-	margin: 0;
-}
-
-/* *Footer*
-
-footer {
-	display: flex;
-	position: absolute;
-}
-
-.fb_logo {
-	position: absolute;
-	width: 1px;
-	height: 5px;
-	left: 676px;
-	top: 4691px;
-} */
-.container {
-	background-color: #fff;
-	width: 80%;
-	height: 100%;
-	margin: 10px auto;
-	padding: 5px;
-}
-
-/*All content for card1*/
-.card1 {
-	display: flex;
-	background-color: #fff;
-	height: 400px;
-    width: 100%;
-}
-
-.card1_left {
-	background-color: #fff;
-	width: 55%;
-	height: 390px;
-	margin: 5px 5px;
-}
-
-.card1_logo {
-	width: 2.5em;
-	height: 2.5em;
-	margin-top: 2em;
-	margin-left: 5em;
-}
-
-/* .profile{
-
-}
-
-.profile_img {
-	position: absolute;
-	margin-left: 4em;
-	height: 60%;
-	width: 30%;
+/* *{
+    border: 1px solid red;
 } */
 
+.img {
+  background-image: url(../img/m.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+}
+.dim {
+  background-color: rgba(0, 0, 0, 0.575);
+}
 
+.color {
+  background-color: #319873;
+}
 .name {
-	width: 20%;
-	position: relative;
-	padding-left: 35px;
-	font-family: Quicksand;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 70px;
-	/* or 112% */
-	color: #333646;
+  font-weight: 600;
+  font-size: 3em;
+  font-family: Quicksand;
+}
+.title {
+  font-weight: bold;
+  padding-top: 0;
+  margin-top: 0;
+}
+.intro-letter {
+  font-family: Quicksand;
+}
+.sub_header {
+  font-family: Quicksand;
+  padding: 0 3em;
+}
+.story a {
+  text-decoration: none;
+  color: #319873;
+  font-family: Quicksand;
+  font-weight: 600;
 }
 
 .rec_card {
-	border-radius: 5px;
-	width: 28px;
-	height: 5px;
-	margin-left: 2.5em;
-	background-color: #319873;
+  background-color: #319873;
+  border-radius: 50px;
+  width: 27px;
+  height: 1px;
+
+  border: 2px solid #319873;
+}
+.icons a {
+  text-decoration: none;
+  color: #fff;
+}
+.icons a:hover {
+  color: #319873;
+}
+.social {
+  margin-right: 1em;
+}
+/*===== MAIN PAGE INFOMATION =====*/
+.main_info {
+  padding: 4em 0 10em 0;
+  background-color: #e5e5e5;
+}
+.main_info h4 {
+  /* width: 230px; */
+  font-weight: bolder;
+  font-size: 2em;
+}
+.main_info h5 {
+  font-size: 1.5em;
+}
+.gmail-link a {
+  color: #319873;
+  text-decoration: none;
+}
+.gmail-link a:hover {
+  color: green;
+}
+/* ===THE TWO EXPERINCE INFOMATION=== */
+.experience {
+  display: flex;
+}
+.big {
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 70px;
+  color: #319873;
+}
+.year {
+  padding: 1em 0 0 0;
+  font-size: 1.3em;
+  font-weight: 700;
+  margin: 0 0 0 1em;
+}
+.year2 {
+  padding: 1em 0 0 0;
+  font-size: 1.3em;
+  font-weight: 700;
 }
 
-.icons{
-	display: flex;
-	margin: 0 2.5em;
-}
-.fab {
-	margin: .3em;
-	width: 2em;
-	height: 2em;
-	margin-top: 6em;	
+/* ===DETAILS ABOUT EXPERIENCE=== */
+
+section {
+  position: relative;
+  top: -80px;
 }
 
-.card1_right {
-	background-color: #fff;
-	width: 55%;
-	height: 390px;
-	margin: 5px 5px;;
+.card1 {
+  margin: 0 0.2em;
+  background-color: #319873;
+  text-align: center;
+  padding-bottom: 2em;
+  padding-top: 4em;
+  font-weight: bolder;
+  font-size: 1.5em;
+  color: #fff;
+  max-width: 250px;
+  font-family: Quicksand;
+}
+.box1_content {
+}
+.card2,
+.card3 {
+  font-family: Quicksand;
+  margin: 0 0.2em;
+  background-color: #424657;
+  text-align: center;
+  padding-top: 4em;
+  padding-bottom: 2em;
+  font-weight: bold;
+  font-size: 1.3em;
+  color: #fff;
+  line-height: 1.7em;
 }
 
-h6 {
-	padding: 0 1em;
-	margin-top: 1em;
-	margin-bottom: 0;
-	font-family: Quicksand;
-	font-style: normal;
-	font-size: 18px;
-	color: #757783;
+/* ===============THE PORPFOLIO EDIT========== */
+
+.special {
+  color: #319873;
 }
-.right_content{
-	width: 20em;
-	height: 15em;
-	margin: 0 1em;
-	color: #333646;
+.portfolio {
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
-
-.photo {
-	font-family: Quicksand;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 23px;
-} 
-
-.text {
-	font-family: Quicksand;
-	font-style: normal;
-	font-size: 14px;
-	color: #757783;
-} 
-
-.story {
-	margin: 7em 0;
-	text-decoration: none;
-	font-family: Quicksand;
-	font-weight: bold;
-	font-size: 12px;
-	color: #319873;
+.portfolio img {
+  width: 100%;
+  height: 100%;
 }
 
+/* ===============THE Blog EDIT========== */
 
-.card2{
-	display: flex;
-	background-color: #fff;
-	height: 400px;
-    width: 100%;;
+.blog {
+  background-color: #e5e5e5;
 }
-.card2_left{
-	background-color: #E5E5E5;
-	width: 50%;
-	height: 25em;
-	
+.blog-img {
+  width: 100%;
 }
-
-
-.card2_line{
-	
-	margin-left: 2em;
-	margin-top: 2em;
-	
+.blog-img img {
+  width: 100%;
+  height: 450px;
 }
 
-.contact{
-	margin-top: 1em;
+.date {
+  margin-right: 1.5%;
+  font-size: large;
 }
-
-.left_content{
-	font-family: Quicksand;
-	margin: 0 1.3em;
-	width: 20em;
-	height: 5em;	
+.date-word {
+  font-weight: bold;
 }
-
-.query{
-	font-size: 2.2em;
-	
+.quote-name {
+  font-family: Quicksand;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 20px;
 }
-
-.left_text{
-	font-family: Quicksand;
-	color:  #757783;;
+.auhtor {
+  margin-left: 19px;
+  font-style: normal;
+  font-size: 18px;
 }
-
-.left_email{
-	font-family: Quicksand;
-	margin-top: 50em;
-	text-decoration: none;
-	color: #319873;
-	font-weight: bold;
-	font-size: 1em;
+.box {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-evenly;
 }
-.card2_right{
-	background-color: #E5E5E5;
-	width: 50%;
-	height: 25em;
-	
+.box1 {
+  background-color: rgb(49, 152, 115);
 }
-
-.right_text{
-	font-family: Quicksand;
-	margin: 2em;
-	width: 25em;
-	height: 15em;
-}
-
-.lang{
-	font-weight: bold;
-	font-size: 1.5em;
-}
-
-.amet{
-	color: #757783;
-}
-.date{
-	display: inline-flex;
-	margin: 1em 0;
-	font-family: Quicksand;
-	width: 35em;
-	height: 15em;
-}
-
-.card2_date{
-	font-weight: bold;
-	font-size: 5em;
-	color: #319873;
-	margin: .3em 0;
-
-}
-
-.year{
-	font-family: Quicksand;
-	margin: 2.2em 1em;
-	font-size: 1.3em;
-	font-weight: bold;
-
-}
-
-.int{
-	font-family: Quicksand;
-	font-size: 1.4em;
-	font-weight: bold;
-	margin: 2em 1em;
-}
-
-
-.card3{
-	width: 100%;
-	height: 20em;
-	justify-content: center;
-	align-items: center;
-}
-
-.box{
-	display: flex;
-	background-color: #333646;
-	width: 100%;
-	height: 15em;
-	justify-content: center;
-	align-items: center;
-}
-
 .box1,
 .box2,
-.box3 {
-	font-family: Quicksand;
-	font-style: normal;
-	font-weight: bold;
-	width: 320px;
-	height: 320px;
-	margin-bottom: 5px;
-	margin: 0 10px;
-	align-items: center;
-	justify-content: center;
+.box3,
+.box4 {
+  padding: 0.5em 0;
+  width: 80px;
 }
-/* 
-.fal{
-	width: 50px;
-	height: 50px;
-	margin: 50px;
+.box2,
+.box3,
+.box4 {
+  margin-left: 2px;
+  background-color: #757783;
+}
+/* *{
+    border: 1px solid red;
 } */
-
-.box1{
-	background: #319873;
+.website {
+  padding-top: 5em;
+}
+.website a {
+  text-decoration: none;
+  color: #319873;
+  font-weight: bold;
+  font-size: large;
+}
+.chat {
+  line-height: 4em;
 }
 
-.box2{
-	background: #424657;
+.chat p {
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
 }
+/* ===========\Spaecial/=========== */
 
-.box3{
-	background: #424657;
-
+@media screen and (max-width: 480px) {
+  .year {
+    padding: 1.6em 0 0 0;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 0 0 0em;
+  }
+  .year2 {
+    padding: 1em 0 0 0;
+    font-size: 16px;
+    font-weight: 700;
+  }
 }
-
-.box1_content,
-.box2_content,
-.box3_content{
-	text-align: center;
-	font-size: 28px;
-	margin: 150px 35px;
-	color: #fff;
-}
-
-/* .card3_social{
-	width: 50em;
-	height: 50em;
-} */
-/*============================================================
-MEDIA QUERIES
-==============================================================
-*/
-
-@media screen and (max-width: 375px) and (max-width: 425px) {
-	/* .container{
-			background-color: #000000;
-			width: 60%;
-			height: 50%;
-	} */
-
-	.card1{
-		display: flex;
-	background-color:#fff;
-	height: 10.60em;
-    width: 100%;
-	}
-
-	.card1_left {
-	background-color: #fff;
-	width: 45em;
-	height: 10em;
-	align-items: center;
-	justify-content: center;
-}
-
-.card1_logo {
-	align-items: center;
-	justify-content: center;
-	width: 2.5em;
-	height: 2.5em;
-	margin: .5em;
-}
-
-.name {
-	width: 5%;
-	padding-left: .2em;
-	font-family: Quicksand;
-	font-style: normal;
-	font-size: 20px;
-	color: #333646;
-}
-
-.rec_card {
-	border-radius: 3px;
-	width: 18px;
-	height: 2px;
-	margin-left: .7em;
-	background-color: #319873;
-}
-
-.icons{
-	display: flex;
-	margin: 1em .6em;)
-}
-.fab {
-	margin: 0 10px;
-	width: 1px;
-	height: 1px;
-	
-}
-
-/*==================================================
-This responsiveness if for the right side of card 1
-====================================================
-*/
-
-.card1_right {
-	background-color: #fff;
-	width: 49%;
-	height: 10em;
-	margin: 0px;
-} 
-
-h6 {
-	margin-bottom: 0;
-	font-family: Quicksand;
-	font-style: normal;
-	font-size: 13px;
-	color: #757783;
-}
-.right_content{
-	width: 5em;
-	height: 6em;
-	color: #333646;
-}
-
-.photo {
-	font-family: Quicksand;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 6px;
-} 
-
-.text {
-	font-family: Quicksand;
-	font-size: 0.1em;
-	color: #757783;
-} 
-
-.story {
-	text-decoration: none;
-	font-family: Quicksand;
-	font-weight: bold;
-	font-size: 7px;
-	color: #319873;
-}
-
-
-.card2{
-	display: flex;
-	background-color: #ffffff;
-	height: 10.5em;
-    width: 100%;;
-}
-.card2_left{
-	background-color: #E5E5E5;
-	width: 50%;
-	height: 10em;
-}
-
-.card2_line{
-	margin-left: 1em;
-	margin-top: 1em;
-	
-}
-
-.contact{
-	margin-top: .5em;
-	font-size: 2px;
-}
-
-.left_content{
-	font-family: Quicksand;
-	width: 6em;
-	height: 3em;	
-}
-
-.query{
-	font-size: .5em;
-	
-}
-
-.left_text{
-	font-family: Quicksand;
-	color:  #757783;
-	font-size: .5em;
-}
-
-.left_email{
-	font-family: Quicksand;
-	margin-top: 50em;
-	text-decoration: none;
-	color: #319873;
-	font-weight: bold;
-	font-size: .4em;
-}
-.card2_right{
-	background-color: #E5E5E5;
-	width: 49%;
-	height: 10em;
-	margin-left: .009em;
-}
-
-.right_text{
-	font-family: Quicksand;
-	width: 6em;
-	height: 4em;
-	margin: 0 .5em;
-}
-
-.lang{
-	font-weight: bold;
-	font-size: .6em;
-}
-
-.amet{
-	color: #757783;
-	font-size: 6px;
-}
-.date{
-	display: inline-flex;
-	margin: 1em 0;
-	font-family: Quicksand;
-
-}
-
-.card2_date{
-	font-weight: bold;
-	font-size: .7em;
-	color: #319873;
-	margin: .3em 0;
-	width: 10px;
-	
-
-}
-
-.year{
-	font-family: Quicksand;
-	margin: 2.2em 1em;
-	font-size: .1em;
-	font-weight: bold;
-	width: 30px;
-
-}
-
-.int{
-	font-family: Quicksand;
-	font-size: 4.51238876px;
-	font-weight: bold;
-	margin: .4em .5em;
-	width: .05px;
-}
-
-}
-
-/*
-$Desktop: 1200px
-$laptop: 1024px
-$Tablet: 764px
-$phone: 480px
